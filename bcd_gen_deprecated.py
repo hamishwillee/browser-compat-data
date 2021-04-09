@@ -29,8 +29,8 @@ def expand_tree(p_dict,level,keychain):
             
     for key, value in p_dict.items():
         newkeychain = keychain + '.' + key
-        if newkeychain.startswith('.'):
-            newkeychain = newkeychain[1:]
+        if newkeychain.startswith('.api.'):
+            newkeychain = newkeychain[5:]
         expand_tree(value, level+1, newkeychain)
 
 for subdir, dirs, files in os.walk(dir_name):
