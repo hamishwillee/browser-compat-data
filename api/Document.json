@@ -3714,7 +3714,8 @@
             ],
             "support": {
               "chrome": {
-                "version_added": "42"
+                "version_added": "42",
+                "notes": "The `paste` command is only available in WebExtensions."
               },
               "chrome_android": "mirror",
               "edge": {
@@ -3722,7 +3723,7 @@
               },
               "firefox": {
                 "version_added": "41",
-                "notes": "From version 148, also supports paste in content scripts via the [Clipboard API](https://developer.mozilla.org/docs/Web/API/Clipboard_API)"
+                "notes": "Before Firefox 148, the `paste` command is only available in WebExtensions. From Firefox 148, the `paste` command is available in web content. See [bug 1998195](https://bugzil.la/1998195)"
               },
               "firefox_android": "mirror",
               "oculus": "mirror",
@@ -3730,7 +3731,7 @@
               "opera_android": "mirror",
               "safari": {
                 "version_added": "10",
-                "notes": "From version 16.5, also supports paste in content scripts via the [Clipboard API](https://developer.mozilla.org/docs/Web/API/Clipboard_API)"
+                "notes": "Before Safari 16.5, the `paste` command is only available in WebExtensions. From Safari 16.5, the `paste` command is available in web content."
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
