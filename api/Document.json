@@ -3705,7 +3705,7 @@
             "standard_track": true,
             "deprecated": false
           }
-        },        
+        },
         "paste": {
           "__compat": {
             "description": "`paste` command",
