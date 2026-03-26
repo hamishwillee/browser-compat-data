@@ -143,7 +143,7 @@
         },
         "container_query_optional": {
           "__compat": {
-            "description": "`<container-query>` is optional",
+            "description": "name-only container queries",
             "spec_url": "https://drafts.csswg.org/css-conditional-5/#typedef-container-condition",
             "support": {
               "chrome": {
