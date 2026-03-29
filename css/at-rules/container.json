@@ -147,7 +147,8 @@
             "spec_url": "https://drafts.csswg.org/css-conditional-5/#typedef-container-condition",
             "support": {
               "chrome": {
-                "version_added": "preview"
+                "version_added": "preview",
+                "impl_url": "https://crbug.com/40287550"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
