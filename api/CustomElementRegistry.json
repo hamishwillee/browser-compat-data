@@ -209,9 +209,9 @@
             }
           }
         },
-        "relax_dom_valid_names": {
+        "html_name_validity": {
           "__compat": {
-            "description": "Allow more characters in custom element names",
+            "description": "Emoji and more Unicode in element names (valid names match HTML parser)",
             "spec_url": "https://dom.spec.whatwg.org/#namespaces",
             "support": {
               "chrome": {
@@ -420,9 +420,9 @@
             "deprecated": false
           }
         },
-        "relax_dom_valid_names": {
+        "html_name_validity": {
           "__compat": {
-            "description": "Allow more characters in custom element names",
+            "description": "Emoji and more Unicode in element names (valid names match HTML parser)",
             "spec_url": "https://dom.spec.whatwg.org/#namespaces",
             "support": {
               "chrome": {
