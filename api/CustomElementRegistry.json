@@ -211,7 +211,7 @@
         },
         "html_name_validity": {
           "__compat": {
-            "description": "Emoji and more Unicode in element names (valid names match HTML parser)",
+            "description": "Emoji and more Unicode in namespace, element, and attribute names (valid names match HTML parser)",
             "spec_url": "https://dom.spec.whatwg.org/#namespaces",
             "support": {
               "chrome": {
@@ -422,7 +422,7 @@
         },
         "html_name_validity": {
           "__compat": {
-            "description": "Emoji and more Unicode in element names (valid names match HTML parser)",
+            "description": "Emoji and more Unicode in namespace, element, and attribute names (valid names match HTML parser)",
             "spec_url": "https://dom.spec.whatwg.org/#namespaces",
             "support": {
               "chrome": {
